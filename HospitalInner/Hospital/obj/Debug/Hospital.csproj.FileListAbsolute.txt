@@ -1,0 +1,13 @@
+E:\Коды\С#\Hospital\HospitalInner\Hospital\obj\Debug\Hospital.csprojResolveAssemblyReference.cache
+E:\Коды\С#\Hospital\HospitalInner\Hospital\obj\Debug\Hospital.csproj.GenerateResource.Cache
+E:\Коды\С#\Hospital\HospitalInner\Hospital\bin\Debug\Hospital.exe.config
+E:\Коды\С#\Hospital\HospitalInner\Hospital\bin\Debug\Hospital.exe
+E:\Коды\С#\Hospital\HospitalInner\Hospital\bin\Debug\Hospital.pdb
+E:\Коды\С#\Hospital\HospitalInner\Hospital\bin\Debug\MySql.Data.dll
+E:\Коды\С#\Hospital\HospitalInner\Hospital\bin\Debug\MySql.Data.xml
+E:\Коды\С#\Hospital\HospitalInner\Hospital\obj\Debug\Hospital.Properties.Defaults.resources
+E:\Коды\С#\Hospital\HospitalInner\Hospital\obj\Debug\Hospital.Properties.MySQLMessages.resources
+E:\Коды\С#\Hospital\HospitalInner\Hospital\obj\Debug\Hospital.Properties.Messages.resources
+E:\Коды\С#\Hospital\HospitalInner\Hospital\obj\Debug\Hospital.Properties.RegexPatterns.resources
+E:\Коды\С#\Hospital\HospitalInner\Hospital\obj\Debug\Hospital.exe
+E:\Коды\С#\Hospital\HospitalInner\Hospital\obj\Debug\Hospital.pdb
