@@ -117,19 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Database" xml:space="preserve">
-    <value>hospital</value>
-  </data>
-  <data name="Host" xml:space="preserve">
-    <value>localhost</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Port" xml:space="preserve">
-    <value>3306</value>
-  </data>
-  <data name="User" xml:space="preserve">
-    <value>root</value>
+  <data name="userFields" xml:space="preserve">
+    <value>'user', 'password', 'name'</value>
   </data>
 </root>

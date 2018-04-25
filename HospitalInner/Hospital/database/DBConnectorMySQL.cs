@@ -8,7 +8,7 @@ using MySql.Data.MySqlClient;
 
 namespace Hospital.database
 {
-    class DBConnectorMySQL
+   public class DBConnectorMySQL
     {
         private MySqlConnection _connection;
         private string _server;
