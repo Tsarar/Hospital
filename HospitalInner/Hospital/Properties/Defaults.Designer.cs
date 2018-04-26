@@ -61,7 +61,7 @@ namespace Hospital.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to bookkeeping.
+        ///   Looks up a localized string similar to hospital.
         /// </summary>
         internal static string Database {
             get {
