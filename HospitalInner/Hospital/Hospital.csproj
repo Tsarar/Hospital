@@ -53,6 +53,7 @@
     <Compile Include="Authorization.Designer.cs">
       <DependentUpon>Authorization.cs</DependentUpon>
     </Compile>
+    <Compile Include="data-models\UsersModel.cs" />
     <Compile Include="parser\IConfigParser.cs" />
     <Compile Include="parser\TxtConfigParser.cs" />
     <Compile Include="Program.cs" />

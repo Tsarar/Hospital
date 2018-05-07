@@ -106,6 +106,12 @@ namespace Hospital.database
         }
 
         //Insert statement
+        public void Insert(string tbname, List<string> fields, string values)
+        {
+            Insert(tbname, string.Join(",", fields), values);
+        }
+
+        //Insert statement
         public void Insert(string tbname, string fields, string values)
         {
             try
@@ -128,6 +134,12 @@ namespace Hospital.database
             {
                 MessageBox.Show(e.Message);
             }
+        }
+
+        //Update statement
+        public void Update(string tbname, List<string> set, string where)
+        {
+            Update(tbname, string.Join(",", set), where);
         }
 
         //Update statement
@@ -183,58 +195,15 @@ namespace Hospital.database
         }
 
         //Select statement
-        public List<string>[] Select(string tbname, List<string> fieldNames)
+        public List<string>[] Select(string tbname, string fieldNames, string where = "1")
         {
-            try
-            {
-                string query = "SELECT * FROM " + tbname;
+            string[] fieldsArray = fieldNames.Split(',');
 
-                //Create a list to store the result
-                List<string>[] list = new List<string>[fieldNames.Count];
-                for (int i = 0; i < fieldNames.Count; i++)
-                {
-                    list[i] = new List<string>();
-                }
-
-                //Open connection
-                if (OpenConnection())
-                {
-                    //Create Command
-                    MySqlCommand cmd = new MySqlCommand(query, _connection);
-                    //Create a data reader and Execute the command
-                    MySqlDataReader dataReader = cmd.ExecuteReader();
-
-                    //Read the data and store them in the list
-                    while (dataReader.Read())
-                    {
-                        for (int i = 0; i < fieldNames.Count; i++)
-                        {
-                            list[i].Add(dataReader[fieldNames[i]] + "");
-                        }
-                    }
-
-                    //close Data Reader
-                    dataReader.Close();
-
-                    //close Connection
-                    CloseConnection();
-
-                    //return list to be displayed
-                    return list;
-                }
-                else
-                {
-                    return list;
-                }
-            }
-            catch (Exception e)
-            {
-                MessageBox.Show(e.Message);
-                return new List<string>[0];
-            }
+            return Select(tbname, new List<string>(fieldsArray), where);
         }
 
-        public List<string>[] Select(string tbname, List<string> fieldNames, string where)
+        //Select statement
+        public List<string>[] Select(string tbname, List<string> fieldNames, string where = "1")
         {
             try
             {
