@@ -120,4 +120,7 @@
   <data name="userFields" xml:space="preserve">
     <value>'user', 'password', 'name'</value>
   </data>
+  <data name="userTableName" xml:space="preserve">
+    <value>users</value>
+  </data>
 </root>

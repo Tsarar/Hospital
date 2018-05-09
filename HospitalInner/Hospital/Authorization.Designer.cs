@@ -28,62 +28,63 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.EntranceButton = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bEnter = new System.Windows.Forms.Button();
+            this.tbLogin = new System.Windows.Forms.TextBox();
+            this.tbPassword = new System.Windows.Forms.TextBox();
+            this.bRegistration = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // EntranceButton
+            // bEnter
             // 
-            this.EntranceButton.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.EntranceButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(128)))), ((int)(((byte)(130)))));
-            this.EntranceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.EntranceButton.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.EntranceButton.Location = new System.Drawing.Point(220, 161);
-            this.EntranceButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.EntranceButton.Name = "EntranceButton";
-            this.EntranceButton.Size = new System.Drawing.Size(155, 29);
-            this.EntranceButton.TabIndex = 0;
-            this.EntranceButton.Text = "Войти";
-            this.EntranceButton.UseVisualStyleBackColor = true;
-            this.EntranceButton.Click += new System.EventHandler(this.button1_Click);
+            this.bEnter.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.bEnter.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(128)))), ((int)(((byte)(130)))));
+            this.bEnter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bEnter.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.bEnter.Location = new System.Drawing.Point(220, 161);
+            this.bEnter.Margin = new System.Windows.Forms.Padding(4);
+            this.bEnter.Name = "bEnter";
+            this.bEnter.Size = new System.Drawing.Size(155, 29);
+            this.bEnter.TabIndex = 0;
+            this.bEnter.Text = "Войти";
+            this.bEnter.UseVisualStyleBackColor = true;
+            this.bEnter.Click += new System.EventHandler(this.bEnter_Click);
             // 
-            // textBox1
+            // tbLogin
             // 
-            this.textBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox1.Location = new System.Drawing.Point(57, 42);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(260, 25);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "Введите логин";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tbLogin.ForeColor = System.Drawing.Color.DimGray;
+            this.tbLogin.Location = new System.Drawing.Point(57, 42);
+            this.tbLogin.Margin = new System.Windows.Forms.Padding(4);
+            this.tbLogin.Name = "tbLogin";
+            this.tbLogin.Size = new System.Drawing.Size(260, 25);
+            this.tbLogin.TabIndex = 1;
+            this.tbLogin.Text = "Введите логин";
+            this.tbLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox2
+            // tbPassword
             // 
-            this.textBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox2.Location = new System.Drawing.Point(57, 109);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(260, 25);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.Text = "Введите пароль";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tbPassword.ForeColor = System.Drawing.Color.DimGray;
+            this.tbPassword.Location = new System.Drawing.Point(57, 109);
+            this.tbPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.tbPassword.Name = "tbPassword";
+            this.tbPassword.Size = new System.Drawing.Size(260, 25);
+            this.tbPassword.TabIndex = 2;
+            this.tbPassword.Text = "Введите пароль";
+            this.tbPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // button1
+            // bRegistration
             // 
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(128)))), ((int)(((byte)(130)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button1.Location = new System.Drawing.Point(11, 161);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(155, 29);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Зарегистрироваться";
-            this.button1.UseVisualStyleBackColor = true;
+            this.bRegistration.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.bRegistration.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(128)))), ((int)(((byte)(130)))));
+            this.bRegistration.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bRegistration.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.bRegistration.Location = new System.Drawing.Point(11, 161);
+            this.bRegistration.Margin = new System.Windows.Forms.Padding(4);
+            this.bRegistration.Name = "bRegistration";
+            this.bRegistration.Size = new System.Drawing.Size(155, 29);
+            this.bRegistration.TabIndex = 3;
+            this.bRegistration.Text = "Зарегистрироваться";
+            this.bRegistration.UseVisualStyleBackColor = true;
+            this.bRegistration.Click += new System.EventHandler(this.bRegistration_Click);
             // 
             // Authorization
             // 
@@ -91,12 +92,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(128)))), ((int)(((byte)(109)))));
             this.ClientSize = new System.Drawing.Size(385, 198);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.EntranceButton);
+            this.Controls.Add(this.bRegistration);
+            this.Controls.Add(this.tbPassword);
+            this.Controls.Add(this.tbLogin);
+            this.Controls.Add(this.bEnter);
             this.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Authorization";
             this.Text = "Авторизация";
             this.ResumeLayout(false);
@@ -106,10 +107,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button EntranceButton;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bEnter;
+        private System.Windows.Forms.TextBox tbLogin;
+        private System.Windows.Forms.TextBox tbPassword;
+        private System.Windows.Forms.Button bRegistration;
     }
 }
 

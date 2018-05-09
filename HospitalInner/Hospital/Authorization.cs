@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Hospital
@@ -17,9 +10,15 @@ namespace Hospital
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void bEnter_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Dima durak!", "I zhopa");
+            People frm = new People();
+            frm.Show();
+        }
+
+        private void bRegistration_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -11,3 +11,5 @@ E:\Коды\С#\Hospital\HospitalInner\Hospital\obj\Debug\Hospital.Properties.Me
 E:\Коды\С#\Hospital\HospitalInner\Hospital\obj\Debug\Hospital.Properties.RegexPatterns.resources
 E:\Коды\С#\Hospital\HospitalInner\Hospital\obj\Debug\Hospital.exe
 E:\Коды\С#\Hospital\HospitalInner\Hospital\obj\Debug\Hospital.pdb
+E:\Коды\С#\Hospital\HospitalInner\Hospital\obj\Debug\Hospital.Authorization.resources
+E:\Коды\С#\Hospital\HospitalInner\Hospital\obj\Debug\Hospital.Properties.Fields.resources
